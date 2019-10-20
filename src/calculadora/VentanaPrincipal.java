@@ -405,7 +405,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
                     op2 = op1;
                     resultado = Math.sin(op1);
                     pantalla.setText(Double.toString(resultado));
-                    punto.setEnabled(true);
+                    punto.setEnabled(false);
                     break;
                 }
             case Constantes.TAG_cos:
@@ -417,7 +417,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
                     op2 = op1;
                     resultado = Math.cos(op1);
                     pantalla.setText(Double.toString(resultado));
-                    punto.setEnabled(true);
+                    punto.setEnabled(false);
                     break;
                 }
             case Constantes.TAG_tan:
@@ -429,7 +429,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
                     op2 = op1;
                     resultado = Math.tan(op1);
                     pantalla.setText(Double.toString(resultado));
-                    punto.setEnabled(true);
+                    punto.setEnabled(false);
                     break;
                 }
             case Constantes.TAG_log:
@@ -440,7 +440,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
                     op2 = op1;
                     resultado = Math.log10(op1);
                     pantalla.setText(Double.toString(resultado));
-                    punto.setEnabled(true);
+                    punto.setEnabled(false);
                     break;
                 }
             case Constantes.TAG_ln:
@@ -451,7 +451,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
                     op2 = op1;
                     resultado = Math.log(op1);
                     pantalla.setText(Double.toString(resultado));
-                    punto.setEnabled(true);
+                    punto.setEnabled(false);
                     break;
                 }
 
